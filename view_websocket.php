@@ -13,4 +13,9 @@ class view_websocket extends ViewEngine
         ];
         $worker->sendHttp($send);
     }
+
+    /**
+     * Set theme folder
+     */
+    public function setThemeFolder($val) { }
 }
